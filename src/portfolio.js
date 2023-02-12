@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Burak Ede",
+  title: "Hi all, I'm Burak",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Angular / Vue / Reactjs / Nodejs  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1GwxODfAE2zjBIFj9S5-qnV3cE72XmYFl/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/edebu",
+  linkedin: "https://www.linkedin.com/in/burak-ede-2ab924bb",
+  gmail: "burak.ede24@gmail.com",
+  gitlab: "https://gitlab.com/edebu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,23 +123,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Istanbul Technical University",
+      logo: require("./assets/images/ituLogo.jpg"),
+      subHeader: "Master of Science in Electronics and Communication Engineering",
+      duration: "September 2019 - – Present",
+      desc: "Participated in the research of UAVs physical layer communication and published 2 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Measurement - Based Large Scale Statistical Modeling of Air - to - Air Wireless UAV Channels via Novel Time - Frequency Analysis (IEEE Wireless Communications Letters · Oct 22, 2021)" ,
+        "Measurement Based Statistical Channel Characterization of Air-to-Ground Path Loss Model at 446 MHz for Narrow-Band Signals in Low Altitude UAVs (VTC2020-Spring · Jan 11, 2020)"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Istanbul Technical University",
+      logo: require("./assets/images/ituLogo.jpg"),
+      subHeader: "Bachelor of Science in Electronics and Communication Engineering",
+      duration: "September 2012 - April 2017",
+      desc: "",
     }
   ]
 };
@@ -162,7 +158,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +170,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Resarcher",
+      company: "TUBİTAK BİLGEM",
+      companylogo: require("./assets/images/bilgemLogo.png"),
+      date: "Aug 2019 – Present",
+      desc: "Currently working as a researcher at TUBITAK BİLGEM. It develops software solutions in the field of wireless communication in line with the needs. Besides, it uses QT C++ on the algorithm development side and Angular/Nodejs on the frontend/backend side.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Qt C++ projects for communication systems",
+        "Web applications, NodeJs, Angular",
+        "WebSockets, RxJs, MySQL, TypeScript, JQuery, HTML5, CSS3, Bootstrap, PrimeNG",
+        "Docker, CI/CD pipelines with GitLab, Jenkins",
+        "Gitlab-CE in air-gapped network setup, maintenance, improvement for CI/CD process"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Electronic Engineer",
+      company: "Startech Electronics",
+      companylogo: require("./assets/images/startechLogo.png"),
+      date: "July 2018 – Dec 2018",
+      desc: "Installation and testing of monitoring software for the development and monitoring of security devices on ATMs in the bank, Django web Framework monitoring application on the bank system, Installing the packages and dependencies required by the monitoring application and python offline and communicating with ATMs over the allowed ports on the firewall, Electronic ATM safe lock project that can be controlled by Raspberry Pi and integrated into the monitoring application."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Aselsan",
+      companylogo: require("./assets/images/aselsanLogo.png"),
+      date: "July 2016 – Aug 2016",
+      desc: "Data communication over TCP/IP using Java."
+    },
+    {
+      role: "Embedded Software Engineer Intern",
+      company: "ITU GSTL",
+      companylogo: require("./assets/images/gstlLogo.png"),
+      date: "June 2015 – July 2015",
+      desc: "Embedded Linux Projects were implemented on Intel Galileo."
     }
   ]
 };
@@ -206,7 +212,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -216,25 +222,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/risaleTabu.png"),
+      projectName: "RisaleTaboo Game",
+      projectDesc: "A Taboo game using Vue",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://risaletaboo.web.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bhbenerji.ico"),
+      projectName: "BHB Solar Enerji",
+      projectDesc: "BHB Solar Enerji company website",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://bhbenerji.com/"
         }
       ]
     }
@@ -252,50 +258,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Angular - The Complete Guide (2023 Edition)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Master Angular and build awesome, reactive web apps with the successor of Angular",
+      image: require("./assets/images/udemyLogo3.png"),
+      imageAlt: "udemy-angular",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.udemy.com/certificate/UC-b15d59f4-6f1d-4771-8946-995e119a128c/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Linux System Administration Basics",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Within the scope of İLA trainings, the training coded ila-sy-rh-1012 covers introduction to system management and basic server management.",
+      image: require("./assets/images/ila.png"),
+      imageAlt: "Course Website",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Course Website",
+          url: "https://man.ila.itu.edu.tr/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Linux System Basics",
+      subtitle: "Within the scope of İLA trainings, the training coded ila-sy-rh-1011 covers the basic topics in Linux distributions.",
+      image: require("./assets/images/ila.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Course Website",
+          url: "https://man.ila.itu.edu.tr/"
         }
       ]
     }
@@ -324,7 +321,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +340,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +353,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+90-5387705960",
+  email_address: "burak.ede24@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
